@@ -8,13 +8,12 @@ extern "C"
     {
         // Startup logic - runs once when the mod loads
     
-        //Test Message
-        //MessageBoxA(nullptr, "SADX-Base loaded!", "Sanity Check", MB_OK);
     }
 
     __declspec(dllexport) void __cdecl OnFrame()
     {
         // Runs every frame
+        
     }
 
     __declspec(dllexport) ModInfo SADXModInfo = { ModLoaderVer };
