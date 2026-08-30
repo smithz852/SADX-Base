@@ -15,6 +15,9 @@ extern "C"
     __declspec(dllexport) void __cdecl OnFrame()
     {
         // Runs every frame
+        
+        //Ulimited Rings
+        *(uint16_t*)0x03B0F0E4 = 999;
     }
 
     __declspec(dllexport) ModInfo SADXModInfo = { ModLoaderVer };
